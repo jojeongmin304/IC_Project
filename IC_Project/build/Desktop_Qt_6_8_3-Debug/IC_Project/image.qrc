@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/dial.png</file>
+        <file>assets/BackGround.png</file>
+        <file>assets/LeftCircle.png</file>
+        <file>assets/LeftOutCircle.png</file>
+        <file>assets/needle-normal.png</file>
+        <file>assets/RightCircle.png</file>
+        <file>assets/RightOutCircle.png</file>
+    </qresource>
+</RCC>
