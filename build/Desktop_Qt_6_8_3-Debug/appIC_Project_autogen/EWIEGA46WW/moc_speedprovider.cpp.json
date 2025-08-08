@@ -29,14 +29,6 @@
                     "returnType": "void"
                 }
             ],
-            "slots": [
-                {
-                    "access": "private",
-                    "index": 1,
-                    "name": "updateSpeed",
-                    "returnType": "void"
-                }
-            ],
             "superClasses": [
                 {
                     "access": "public",

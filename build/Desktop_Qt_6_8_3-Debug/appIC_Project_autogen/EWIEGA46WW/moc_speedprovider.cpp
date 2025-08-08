@@ -40,7 +40,6 @@ static constexpr auto qt_meta_stringdata_ZN13SpeedProviderE = QtMocHelpers::stri
     "SpeedProvider",
     "speedChanged",
     "",
-    "updateSpeed",
     "speed"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
@@ -53,27 +52,21 @@ Q_CONSTINIT static const uint qt_meta_data_ZN13SpeedProviderE[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       2,   14, // methods
-       1,   28, // properties
+       1,   14, // methods
+       1,   21, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   26,    2, 0x06,    2 /* Public */,
-
- // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       3,    0,   27,    2, 0x08,    3 /* Private */,
+       1,    0,   20,    2, 0x06,    2 /* Public */,
 
  // signals: parameters
     QMetaType::Void,
 
- // slots: parameters
-    QMetaType::Void,
-
  // properties: name, type, flags, notifyId, revision
-       4, QMetaType::Int, 0x00015001, uint(0), 0,
+       3, QMetaType::Int, 0x00015001, uint(0), 0,
 
        0        // eod
 };
@@ -90,8 +83,6 @@ Q_CONSTINIT const QMetaObject SpeedProvider::staticMetaObject = { {
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<SpeedProvider, std::true_type>,
         // method 'speedChanged'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'updateSpeed'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -103,7 +94,6 @@ void SpeedProvider::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
         case 0: _t->speedChanged(); break;
-        case 1: _t->updateSpeed(); break;
         default: ;
         }
     }
@@ -145,14 +135,14 @@ int SpeedProvider::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 1)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 1;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 2)
+        if (_id < 1)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 2;
+        _id -= 1;
     }
     if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
             || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty

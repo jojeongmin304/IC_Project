@@ -1,0 +1,14 @@
+-rootPath
+/project
+-cmake-output
+-output-file
+/project/build/.qt_plugins/Qt6_QmlPlugins_Imports_appIC_Project.cmake
+-importPath
+/project/build/IC_Project
+-importPath
+/project/build
+-importPath
+/usr/lib/aarch64-linux-gnu/qt6/qml
+-qrcFiles
+/project/build/.rcc/qmake_IC_Project.qrc
+/project/build/.rcc/appIC_Project_raw_qml_0.qrc

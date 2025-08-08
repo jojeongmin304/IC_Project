@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "/project/build/appIC_Project_autogen",
+	"CMAKE_BINARY_DIR" : "/project/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/project/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/project",
+	"CMAKE_SOURCE_DIR" : "/project",
+	"INCLUDE_DIR" : "/project/build/appIC_Project_autogen/include",
+	"INPUTS" : 
+	[
+		"/project/Main.qml",
+		"/project/Gear.qml",
+		"/project/RightCluster.qml",
+		"/project/InstrumentCluster.qml",
+		"/project/LeftCluster.qml"
+	],
+	"LOCK_FILE" : "/project/build/CMakeFiles/appIC_Project_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/project/build/CMakeFiles/appIC_Project_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/project/qml.qrc",
+	"VERBOSITY" : 0
+}

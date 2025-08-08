@@ -31,6 +31,7 @@ qt_add_qml_module(appIC_Project
         image.qrc
         qml.qrc
         SOURCES speedprovider.h speedprovider.cpp
+        SOURCES receiver.h receiver.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

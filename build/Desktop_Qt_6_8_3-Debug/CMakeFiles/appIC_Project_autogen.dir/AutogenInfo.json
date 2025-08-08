@@ -991,6 +991,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/jeongmin/IC_Project/receiver.h",
+			"MU",
+			"EWIEGA46WW/moc_receiver.cpp",
+			null
+		],
+		[
 			"/home/jeongmin/IC_Project/speedprovider.h",
 			"MU",
 			"EWIEGA46WW/moc_speedprovider.cpp",
@@ -1091,6 +1097,7 @@
 	"SOURCES" : 
 	[
 		[ "/home/jeongmin/IC_Project/main.cpp", "MU", null ],
+		[ "/home/jeongmin/IC_Project/receiver.cpp", "MU", null ],
 		[ "/home/jeongmin/IC_Project/speedprovider.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

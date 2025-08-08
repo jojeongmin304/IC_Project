@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/IC_Project">
+    <file alias="qmldir">/project/build/IC_Project/qmldir</file>
+  </qresource>
+</RCC>
+

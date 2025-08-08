@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "Receiver",
+            "lineNumber": 17,
+            "object": true,
+            "qualifiedClassName": "Receiver",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "speed",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "newSpeedReceived",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QThread"
+                }
+            ]
+        }
+    ],
+    "inputFile": "receiver.h",
+    "outputRevision": 68
+}

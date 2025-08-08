@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="/IC_Project/">
+    <file alias="Main.qml">/project/Main.qml</file>
+    <file alias="InstrumentCluster.qml">/project/InstrumentCluster.qml</file>
+    <file alias="Gear.qml">/project/Gear.qml</file>
+    <file alias="LeftCluster.qml">/project/LeftCluster.qml</file>
+    <file alias="RightCluster.qml">/project/RightCluster.qml</file>
+    <file alias="image.qrc">/project/image.qrc</file>
+    <file alias="qml.qrc">/project/qml.qrc</file>
+  </qresource>
+</RCC>
+

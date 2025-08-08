@@ -2,6 +2,38 @@
     {
         "classes": [
             {
+                "className": "Receiver",
+                "lineNumber": 17,
+                "object": true,
+                "qualifiedClassName": "Receiver",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "speed",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "newSpeedReceived",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QThread"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "receiver.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
                 "className": "SpeedProvider",
                 "lineNumber": 7,
                 "object": true,
@@ -27,14 +59,6 @@
                         "access": "public",
                         "index": 0,
                         "name": "speedChanged",
-                        "returnType": "void"
-                    }
-                ],
-                "slots": [
-                    {
-                        "access": "private",
-                        "index": 1,
-                        "name": "updateSpeed",
                         "returnType": "void"
                     }
                 ],

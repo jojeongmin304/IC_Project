@@ -1,0 +1,28 @@
+{
+	"BUILD_DIR" : "/project/build/appIC_Project_autogen",
+	"CMAKE_BINARY_DIR" : "/project/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/project/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/project",
+	"CMAKE_SOURCE_DIR" : "/project",
+	"INCLUDE_DIR" : "/project/build/appIC_Project_autogen/include",
+	"INPUTS" : 
+	[
+		"/project/BackGround.png",
+		"/project/LeftCircle.png",
+		"/project/needle-normal.png",
+		"/project/LeftOutCircle.png",
+		"/project/dial.png",
+		"/project/RightCircle.png",
+		"/project/RightOutCircle.png"
+	],
+	"LOCK_FILE" : "/project/build/CMakeFiles/appIC_Project_autogen.dir/AutoRcc_image_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "image" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_image.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/project/build/CMakeFiles/appIC_Project_autogen.dir/AutoRcc_image_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/project/image.qrc",
+	"VERBOSITY" : 0
+}
