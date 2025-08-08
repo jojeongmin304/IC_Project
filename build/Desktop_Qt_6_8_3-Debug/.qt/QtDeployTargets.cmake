@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appIC_Project_FILE /home/jeongmin/IC_Project/build/Desktop_Qt_6_8_3-Debug/appIC_Project)
+set(__QT_DEPLOY_TARGET_appIC_Project_TYPE EXECUTABLE)

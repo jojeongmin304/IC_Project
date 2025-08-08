@@ -1,0 +1,44 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 19,
+                        "durationMicroseconds": 131,
+                        "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 56,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 18
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 16,
+                        "durationMicroseconds": 187,
+                        "errorMessage": "Cannot access value for name speedController",
+                        "functionName": "speed",
+                        "line": 29
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 19,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "Cannot access value for name actualCapacity",
+                        "functionName": "capacity",
+                        "line": 38
+                    }
+                ],
+                "filepath": "/home/jeongmin/IC_Project/InstrumentCluster.qml"
+            }
+        ],
+        "moduleId": "IC_Project(appIC_Project)"
+    }
+]

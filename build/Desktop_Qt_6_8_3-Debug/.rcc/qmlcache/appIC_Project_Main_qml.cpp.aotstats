@@ -1,0 +1,20 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 88,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 14
+                    }
+                ],
+                "filepath": "/home/jeongmin/IC_Project/Main.qml"
+            }
+        ],
+        "moduleId": "IC_Project(appIC_Project)"
+    }
+]

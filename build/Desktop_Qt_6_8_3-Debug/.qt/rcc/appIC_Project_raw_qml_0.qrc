@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="/qt/qml/IC_Project/">
+    <file alias="Main.qml">/home/jeongmin/IC_Project/Main.qml</file>
+    <file alias="InstrumentCluster.qml">/home/jeongmin/IC_Project/InstrumentCluster.qml</file>
+    <file alias="Gear.qml">/home/jeongmin/IC_Project/Gear.qml</file>
+    <file alias="LeftCluster.qml">/home/jeongmin/IC_Project/LeftCluster.qml</file>
+    <file alias="RightCluster.qml">/home/jeongmin/IC_Project/RightCluster.qml</file>
+    <file alias="image.qrc">/home/jeongmin/IC_Project/image.qrc</file>
+    <file alias="qml.qrc">/home/jeongmin/IC_Project/qml.qrc</file>
+  </qresource>
+</RCC>
+

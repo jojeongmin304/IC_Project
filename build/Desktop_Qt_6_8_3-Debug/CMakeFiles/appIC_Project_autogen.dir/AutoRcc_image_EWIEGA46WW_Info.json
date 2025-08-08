@@ -1,0 +1,31 @@
+{
+	"BUILD_DIR" : "/home/jeongmin/IC_Project/build/Desktop_Qt_6_8_3-Debug/appIC_Project_autogen",
+	"CMAKE_BINARY_DIR" : "/home/jeongmin/IC_Project/build/Desktop_Qt_6_8_3-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/jeongmin/IC_Project/build/Desktop_Qt_6_8_3-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/jeongmin/IC_Project",
+	"CMAKE_SOURCE_DIR" : "/home/jeongmin/IC_Project",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/home/jeongmin/IC_Project/build/Desktop_Qt_6_8_3-Debug/appIC_Project_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/jeongmin/IC_Project/BackGround.png",
+		"/home/jeongmin/IC_Project/LeftCircle.png",
+		"/home/jeongmin/IC_Project/needle-normal.png",
+		"/home/jeongmin/IC_Project/LeftOutCircle.png",
+		"/home/jeongmin/IC_Project/dial.png",
+		"/home/jeongmin/IC_Project/RightCircle.png",
+		"/home/jeongmin/IC_Project/RightOutCircle.png"
+	],
+	"LOCK_FILE" : "/home/jeongmin/IC_Project/build/Desktop_Qt_6_8_3-Debug/CMakeFiles/appIC_Project_autogen.dir/AutoRcc_image_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "image" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_image.cpp",
+	"RCC_EXECUTABLE" : "/home/jeongmin/Qt/6.8.3/gcc_64/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/jeongmin/IC_Project/build/Desktop_Qt_6_8_3-Debug/CMakeFiles/appIC_Project_autogen.dir/AutoRcc_image_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/jeongmin/IC_Project/image.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}
