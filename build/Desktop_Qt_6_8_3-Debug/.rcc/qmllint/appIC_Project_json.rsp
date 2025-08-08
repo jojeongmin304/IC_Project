@@ -1,0 +1,16 @@
+--bare
+-I
+/home/jeongmin/IC_Project/build/Desktop_Qt_6_8_3-Debug
+-I
+/home/jeongmin/Qt/6.8.3/gcc_64/qml
+--resource
+/home/jeongmin/IC_Project/build/Desktop_Qt_6_8_3-Debug/.qt/rcc/qmake_IC_Project.qrc
+--resource
+/home/jeongmin/IC_Project/build/Desktop_Qt_6_8_3-Debug/.qt/rcc/appIC_Project_raw_qml_0.qrc
+/home/jeongmin/IC_Project/Main.qml
+/home/jeongmin/IC_Project/InstrumentCluster.qml
+/home/jeongmin/IC_Project/Gear.qml
+/home/jeongmin/IC_Project/LeftCluster.qml
+/home/jeongmin/IC_Project/RightCluster.qml
+--json
+/home/jeongmin/IC_Project/build/Desktop_Qt_6_8_3-Debug/appIC_Project_qmllint.json
