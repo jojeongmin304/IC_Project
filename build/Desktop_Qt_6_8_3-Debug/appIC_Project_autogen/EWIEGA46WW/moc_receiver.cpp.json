@@ -2,8 +2,24 @@
     "classes": [
         {
             "className": "Receiver",
-            "lineNumber": 17,
+            "lineNumber": 19,
             "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "speed",
+                    "notify": "newSpeedReceived",
+                    "read": "speed",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "float",
+                    "user": false
+                }
+            ],
             "qualifiedClassName": "Receiver",
             "signals": [
                 {
@@ -11,7 +27,7 @@
                     "arguments": [
                         {
                             "name": "speed",
-                            "type": "int"
+                            "type": "float"
                         }
                     ],
                     "index": 0,

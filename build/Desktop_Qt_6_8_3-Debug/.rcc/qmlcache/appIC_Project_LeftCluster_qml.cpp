@@ -1,4 +1,4 @@
-// /qt/qml/IC_Project/LeftCluster.qml
+// /IC_Project/LeftCluster.qml
 #include <QtQml/qqmlprivate.h>
 #include <QtCore/qdatetime.h>
 #include <QtCore/qobject.h>
@@ -16,7 +16,7 @@
 #include <QtQml/qqmllist.h>
 #include <type_traits>
 namespace QmlCacheGeneratedCode {
-namespace _qt_qml_IC_Project_LeftCluster_qml {
+namespace _0x5f_IC_Project_LeftCluster_qml {
 extern const unsigned char qmlData alignas(16) [];
 extern const unsigned char qmlData alignas(16) [] = {
 

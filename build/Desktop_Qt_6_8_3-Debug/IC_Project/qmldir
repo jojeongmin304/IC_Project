@@ -1,6 +1,6 @@
 module IC_Project
 typeinfo appIC_Project.qmltypes
-prefer :/qt/qml/IC_Project/
+prefer :/IC_Project/
 Main 1.0 Main.qml
 InstrumentCluster 1.0 InstrumentCluster.qml
 Gear 1.0 Gear.qml

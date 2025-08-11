@@ -1,7 +1,5 @@
 #include "receiver.h"
 
-// DataUnion은 더 이상 필요 없으므로 삭제합니다.
-
 Receiver::Receiver(QObject *parent)
     : QThread(parent), m_socket(-1), m_isRunning(true)
 {
@@ -9,7 +7,7 @@ Receiver::Receiver(QObject *parent)
 
 Receiver::~Receiver()
 {
-    m_isRunning = false; // 스레드 루프를 종료시킵니다.
+    m_isRunning = false; // 스레드 루프를 안전하게 종료시킵니다.
     if (m_socket >= 0) {
         close(m_socket); // 소켓을 닫습니다.
     }
@@ -21,15 +19,15 @@ bool Receiver::initializeCanSocket()
     // 1. CAN raw 소켓 생성
     m_socket = socket(PF_CAN, SOCK_RAW, CAN_RAW);
     if (m_socket < 0) {
-        qWarning() << "CAN 소켓 생성 실패!";
+        qDebug() << "CAN socket creation failed!";
         return false;
     }
 
-    // 2. 사용할 CAN 인터페이스 지정 (예: "can0")
+    // 2. 사용할 CAN 인터페이스 지정 (can1)
     ifreq ifr;
     std::strcpy(ifr.ifr_name, "can1");
     if (ioctl(m_socket, SIOCGIFINDEX, &ifr) < 0) {
-        qWarning() << "CAN 인터페이스 'can1'를 찾을 수 없습니다!";
+        qWarning() << "Could not find CAN interface 'can1'!";
         close(m_socket);
         return false;
     }
@@ -41,7 +39,7 @@ bool Receiver::initializeCanSocket()
     addr.can_ifindex = ifr.ifr_ifindex;
 
     if (bind(m_socket, (struct sockaddr *)&addr, sizeof(addr)) < 0) {
-        qWarning() << "CAN 소켓 바인드 실패!";
+        qDebug() << "Failed to bind CAN socket!";
         close(m_socket);
         return false;
     }
@@ -53,21 +51,20 @@ void Receiver::run()
 {
     can_frame frame;
 
+    qDebug() << "listening for CAN messages on can1...\n";
+
     while (m_isRunning) {
         // CAN 프레임이 들어올 때까지 대기합니다.
         int nbytes = read(m_socket, &frame, sizeof(struct can_frame));
 
         if (nbytes < 0) {
-            qWarning() << "CAN 프레임 읽기 오류!";
-            continue; // 오류가 발생해도 루프를 계속합니다.
-        }
-
-        if (nbytes < sizeof(struct can_frame)) {
-            qWarning() << "불완전한 CAN 프레임 수신";
+            // 데이터가 없을 때 계속 오류를 출력하지 않도록 잠시 대기합니다.
+            qDebug() << "Error reading CAN frame!\n";
+            msleep(10);
             continue;
         }
 
-        // --- 여기서 데이터를 해석합니다 (아두이노 코드에 맞게 수정) ---
+        // --- 여기서 데이터를 해석합니다 (사용자님의 아두이노 코드에 맞춤) ---
 
         // 아두이노에서 보낸 CAN ID가 0x10인지 확인합니다.
         if (frame.can_id == 0x10) {
@@ -77,8 +74,13 @@ void Receiver::run()
                 // data[0]이 상위 바이트(highByte), data[1]이 하위 바이트(lowByte)입니다.
                 int receivedSpeed = (frame.data[0] << 8) | frame.data[1];
 
+                // 디버깅을 위해 터미널에 수신된 속도 값을 출력합니다.
+                qDebug() << "CAN data received:" << receivedSpeed;
+
                 // 새로운 속도 값을 받았다고 신호를 보냅니다.
                 emit newSpeedReceived(receivedSpeed);
+
+                qDebug() << "Received CAN ID: " << frame.can_id << '\n';
             }
         }
     }

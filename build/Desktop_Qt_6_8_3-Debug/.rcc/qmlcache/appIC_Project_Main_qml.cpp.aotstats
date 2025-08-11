@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 135,
+                        "durationMicroseconds": 78,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 14

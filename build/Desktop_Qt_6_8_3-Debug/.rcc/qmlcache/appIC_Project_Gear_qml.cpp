@@ -1,7 +1,7 @@
-// /qt/qml/IC_Project/Gear.qml
+// /IC_Project/Gear.qml
 #include <QtQml/qqmlprivate.h>
 namespace QmlCacheGeneratedCode {
-namespace _qt_qml_IC_Project_Gear_qml {
+namespace _0x5f_IC_Project_Gear_qml {
 extern const unsigned char qmlData alignas(16) [];
 extern const unsigned char qmlData alignas(16) [] = {
 

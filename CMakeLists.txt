@@ -2,20 +2,29 @@ cmake_minimum_required(VERSION 3.16)
 
 project(IC_Project VERSION 0.1 LANGUAGES CXX)
 
+# C++ 표준 설정
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-#add .qrc files as sources to executable or library
 
+
+#add .qrc files as sources to executable or library
+set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOUIC ON)
 
 
 find_package(Qt6 REQUIRED COMPONENTS Quick)
 
-qt_standard_project_setup(REQUIRES 6.8)
 
 qt_add_executable(appIC_Project
     image.qrc
     qml.qrc
     main.cpp
+
+    receiver.h
+    receiver.cpp
+    speedprovider.h
+    speedprovider.cpp
 )
 
 qt_add_qml_module(appIC_Project

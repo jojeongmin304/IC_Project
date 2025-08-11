@@ -974,7 +974,6 @@
 		"/home/jeongmin/Qt/6.8.3/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake",
 		"/home/jeongmin/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
 		"/home/jeongmin/Qt/6.8.3/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
-		"/home/jeongmin/Qt/Tools/CMake/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
 		"/home/jeongmin/Qt/6.8.3/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"/home/jeongmin/Qt/6.8.3/gcc_64/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
 		"/home/jeongmin/Qt/6.8.3/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
@@ -1067,6 +1066,7 @@
 	"MOC_PREDEFS_CMD" : 
 	[
 		"/bin/g++",
+		"-std=gnu++17",
 		"-dM",
 		"-E",
 		"-c",

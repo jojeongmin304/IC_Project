@@ -1,5 +1,5 @@
 <RCC>
-  <qresource prefix="/qt/qml/IC_Project/">
+  <qresource prefix="/IC_Project/">
     <file alias="Main.qml">/home/jeongmin/IC_Project/Main.qml</file>
     <file alias="InstrumentCluster.qml">/home/jeongmin/IC_Project/InstrumentCluster.qml</file>
     <file alias="Gear.qml">/home/jeongmin/IC_Project/Gear.qml</file>

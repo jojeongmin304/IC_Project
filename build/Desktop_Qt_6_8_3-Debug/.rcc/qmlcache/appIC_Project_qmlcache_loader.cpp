@@ -5,35 +5,35 @@
 #include <QtCore/qstring.h>
 
 namespace QmlCacheGeneratedCode {
-namespace _qt_qml_IC_Project_Main_qml { 
+namespace _0x5f_IC_Project_Main_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _qt_qml_IC_Project_InstrumentCluster_qml { 
+namespace _0x5f_IC_Project_InstrumentCluster_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _qt_qml_IC_Project_Gear_qml { 
+namespace _0x5f_IC_Project_Gear_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _qt_qml_IC_Project_LeftCluster_qml { 
+namespace _0x5f_IC_Project_LeftCluster_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _qt_qml_IC_Project_RightCluster_qml { 
+namespace _0x5f_IC_Project_RightCluster_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -54,11 +54,11 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 
 Registry::Registry() {
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/IC_Project/Main.qml"), &QmlCacheGeneratedCode::_qt_qml_IC_Project_Main_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/IC_Project/InstrumentCluster.qml"), &QmlCacheGeneratedCode::_qt_qml_IC_Project_InstrumentCluster_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/IC_Project/Gear.qml"), &QmlCacheGeneratedCode::_qt_qml_IC_Project_Gear_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/IC_Project/LeftCluster.qml"), &QmlCacheGeneratedCode::_qt_qml_IC_Project_LeftCluster_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/IC_Project/RightCluster.qml"), &QmlCacheGeneratedCode::_qt_qml_IC_Project_RightCluster_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/IC_Project/Main.qml"), &QmlCacheGeneratedCode::_0x5f_IC_Project_Main_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/IC_Project/InstrumentCluster.qml"), &QmlCacheGeneratedCode::_0x5f_IC_Project_InstrumentCluster_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/IC_Project/Gear.qml"), &QmlCacheGeneratedCode::_0x5f_IC_Project_Gear_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/IC_Project/LeftCluster.qml"), &QmlCacheGeneratedCode::_0x5f_IC_Project_LeftCluster_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/IC_Project/RightCluster.qml"), &QmlCacheGeneratedCode::_0x5f_IC_Project_RightCluster_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

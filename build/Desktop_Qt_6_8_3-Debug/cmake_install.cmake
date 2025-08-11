@@ -47,7 +47,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/appIC_Project")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/appIC_Project"
-         RPATH "\$ORIGIN:\$ORIGIN/../lib")
+         RPATH "")
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jeongmin/IC_Project/build/Desktop_Qt_6_8_3-Debug/appIC_Project")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/appIC_Project" AND
@@ -55,7 +55,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/appIC_Project"
          OLD_RPATH "/home/jeongmin/Qt/6.8.3/gcc_64/lib:"
-         NEW_RPATH "\$ORIGIN:\$ORIGIN/../lib")
+         NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/appIC_Project")
     endif()

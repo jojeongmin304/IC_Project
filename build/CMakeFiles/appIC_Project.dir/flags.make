@@ -6,5 +6,5 @@ CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPE
 
 CXX_INCLUDES = -I/project/build/appIC_Project_autogen/include -I/project -isystem /usr/include/aarch64-linux-gnu/qt6/QtQml/6.4.2 -isystem /usr/include/aarch64-linux-gnu/qt6/QtQml/6.4.2/QtQml -isystem /usr/include/aarch64-linux-gnu/qt6/QtCore/6.4.2 -isystem /usr/include/aarch64-linux-gnu/qt6/QtCore/6.4.2/QtCore -isystem /usr/include/aarch64-linux-gnu/qt6/QtCore -isystem /usr/include/aarch64-linux-gnu/qt6 -isystem /usr/lib/aarch64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/aarch64-linux-gnu/qt6/QtQml -isystem /usr/include/aarch64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/aarch64-linux-gnu/qt6/QtNetwork -isystem /usr/include/aarch64-linux-gnu/qt6/QtQuick -isystem /usr/include/aarch64-linux-gnu/qt6/QtGui -isystem /usr/include/aarch64-linux-gnu/qt6/QtQmlModels -isystem /usr/include/aarch64-linux-gnu/qt6/QtOpenGL
 
-CXX_FLAGS = 
+CXX_FLAGS = -std=gnu++17
 

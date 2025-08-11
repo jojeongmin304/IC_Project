@@ -210,6 +210,7 @@
   /usr/include/c++/9/bits/cpp_type_traits.h \
   /usr/include/c++/9/bits/cxxabi_forced.h \
   /usr/include/c++/9/bits/cxxabi_init_exception.h \
+  /usr/include/c++/9/bits/enable_special_members.h \
   /usr/include/c++/9/bits/erase_if.h \
   /usr/include/c++/9/bits/exception.h \
   /usr/include/c++/9/bits/exception_defines.h \
@@ -217,6 +218,8 @@
   /usr/include/c++/9/bits/functexcept.h \
   /usr/include/c++/9/bits/functional_hash.h \
   /usr/include/c++/9/bits/hash_bytes.h \
+  /usr/include/c++/9/bits/hashtable.h \
+  /usr/include/c++/9/bits/hashtable_policy.h \
   /usr/include/c++/9/bits/invoke.h \
   /usr/include/c++/9/bits/ios_base.h \
   /usr/include/c++/9/bits/istream.tcc \
@@ -229,6 +232,7 @@
   /usr/include/c++/9/bits/memoryfwd.h \
   /usr/include/c++/9/bits/move.h \
   /usr/include/c++/9/bits/nested_exception.h \
+  /usr/include/c++/9/bits/node_handle.h \
   /usr/include/c++/9/bits/ostream.tcc \
   /usr/include/c++/9/bits/ostream_insert.h \
   /usr/include/c++/9/bits/parse_numbers.h \
@@ -240,6 +244,7 @@
   /usr/include/c++/9/bits/shared_ptr.h \
   /usr/include/c++/9/bits/shared_ptr_atomic.h \
   /usr/include/c++/9/bits/shared_ptr_base.h \
+  /usr/include/c++/9/bits/specfun.h \
   /usr/include/c++/9/bits/std_abs.h \
   /usr/include/c++/9/bits/std_function.h \
   /usr/include/c++/9/bits/std_mutex.h \
@@ -266,10 +271,12 @@
   /usr/include/c++/9/bits/stream_iterator.h \
   /usr/include/c++/9/bits/streambuf.tcc \
   /usr/include/c++/9/bits/streambuf_iterator.h \
+  /usr/include/c++/9/bits/string_view.tcc \
   /usr/include/c++/9/bits/stringfwd.h \
   /usr/include/c++/9/bits/uniform_int_dist.h \
   /usr/include/c++/9/bits/unique_lock.h \
   /usr/include/c++/9/bits/unique_ptr.h \
+  /usr/include/c++/9/bits/unordered_map.h \
   /usr/include/c++/9/bits/uses_allocator.h \
   /usr/include/c++/9/bits/vector.tcc \
   /usr/include/c++/9/cassert \
@@ -315,6 +322,10 @@
   /usr/include/c++/9/numeric \
   /usr/include/c++/9/optional \
   /usr/include/c++/9/ostream \
+  /usr/include/c++/9/pstl/execution_defs.h \
+  /usr/include/c++/9/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/9/pstl/glue_memory_defs.h \
+  /usr/include/c++/9/pstl/glue_numeric_defs.h \
   /usr/include/c++/9/ratio \
   /usr/include/c++/9/stdexcept \
   /usr/include/c++/9/streambuf \
@@ -322,9 +333,22 @@
   /usr/include/c++/9/string_view \
   /usr/include/c++/9/system_error \
   /usr/include/c++/9/thread \
+  /usr/include/c++/9/tr1/bessel_function.tcc \
+  /usr/include/c++/9/tr1/beta_function.tcc \
+  /usr/include/c++/9/tr1/ell_integral.tcc \
+  /usr/include/c++/9/tr1/exp_integral.tcc \
+  /usr/include/c++/9/tr1/gamma.tcc \
+  /usr/include/c++/9/tr1/hypergeometric.tcc \
+  /usr/include/c++/9/tr1/legendre_function.tcc \
+  /usr/include/c++/9/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/9/tr1/poly_hermite.tcc \
+  /usr/include/c++/9/tr1/poly_laguerre.tcc \
+  /usr/include/c++/9/tr1/riemann_zeta.tcc \
+  /usr/include/c++/9/tr1/special_function_util.h \
   /usr/include/c++/9/tuple \
   /usr/include/c++/9/type_traits \
   /usr/include/c++/9/typeinfo \
+  /usr/include/c++/9/unordered_map \
   /usr/include/c++/9/utility \
   /usr/include/c++/9/variant \
   /usr/include/c++/9/vector \

@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 101,
+                        "durationMicroseconds": 113,
                         "errorMessage": "",
                         "functionName": "fillMode",
                         "line": 21
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 47,
+                        "durationMicroseconds": 64,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 18
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 16,
-                        "durationMicroseconds": 140,
+                        "durationMicroseconds": 164,
                         "errorMessage": "Cannot access value for name speedController",
                         "functionName": "speed",
                         "line": 29
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 19,
-                        "durationMicroseconds": 14,
+                        "durationMicroseconds": 15,
                         "errorMessage": "Cannot access value for name actualCapacity",
                         "functionName": "capacity",
                         "line": 38

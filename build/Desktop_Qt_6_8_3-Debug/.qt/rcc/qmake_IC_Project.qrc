@@ -1,5 +1,5 @@
 <RCC>
-  <qresource prefix="/qt/qml/IC_Project">
+  <qresource prefix="/IC_Project">
     <file alias="qmldir">/home/jeongmin/IC_Project/build/Desktop_Qt_6_8_3-Debug/IC_Project/qmldir</file>
   </qresource>
 </RCC>

@@ -223,10 +223,38 @@ CMakeFiles/appIC_Project.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/appIC_Project.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /project/main.cpp -o CMakeFiles/appIC_Project.dir/main.cpp.s
 
+CMakeFiles/appIC_Project.dir/receiver.cpp.o: CMakeFiles/appIC_Project.dir/flags.make
+CMakeFiles/appIC_Project.dir/receiver.cpp.o: /project/receiver.cpp
+CMakeFiles/appIC_Project.dir/receiver.cpp.o: CMakeFiles/appIC_Project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appIC_Project.dir/receiver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appIC_Project.dir/receiver.cpp.o -MF CMakeFiles/appIC_Project.dir/receiver.cpp.o.d -o CMakeFiles/appIC_Project.dir/receiver.cpp.o -c /project/receiver.cpp
+
+CMakeFiles/appIC_Project.dir/receiver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/appIC_Project.dir/receiver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /project/receiver.cpp > CMakeFiles/appIC_Project.dir/receiver.cpp.i
+
+CMakeFiles/appIC_Project.dir/receiver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/appIC_Project.dir/receiver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /project/receiver.cpp -o CMakeFiles/appIC_Project.dir/receiver.cpp.s
+
+CMakeFiles/appIC_Project.dir/speedprovider.cpp.o: CMakeFiles/appIC_Project.dir/flags.make
+CMakeFiles/appIC_Project.dir/speedprovider.cpp.o: /project/speedprovider.cpp
+CMakeFiles/appIC_Project.dir/speedprovider.cpp.o: CMakeFiles/appIC_Project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appIC_Project.dir/speedprovider.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appIC_Project.dir/speedprovider.cpp.o -MF CMakeFiles/appIC_Project.dir/speedprovider.cpp.o.d -o CMakeFiles/appIC_Project.dir/speedprovider.cpp.o -c /project/speedprovider.cpp
+
+CMakeFiles/appIC_Project.dir/speedprovider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/appIC_Project.dir/speedprovider.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /project/speedprovider.cpp > CMakeFiles/appIC_Project.dir/speedprovider.cpp.i
+
+CMakeFiles/appIC_Project.dir/speedprovider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/appIC_Project.dir/speedprovider.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /project/speedprovider.cpp -o CMakeFiles/appIC_Project.dir/speedprovider.cpp.s
+
 CMakeFiles/appIC_Project.dir/appic_project_qmltyperegistrations.cpp.o: CMakeFiles/appIC_Project.dir/flags.make
 CMakeFiles/appIC_Project.dir/appic_project_qmltyperegistrations.cpp.o: appic_project_qmltyperegistrations.cpp
 CMakeFiles/appIC_Project.dir/appic_project_qmltyperegistrations.cpp.o: CMakeFiles/appIC_Project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appIC_Project.dir/appic_project_qmltyperegistrations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appIC_Project.dir/appic_project_qmltyperegistrations.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appIC_Project.dir/appic_project_qmltyperegistrations.cpp.o -MF CMakeFiles/appIC_Project.dir/appic_project_qmltyperegistrations.cpp.o.d -o CMakeFiles/appIC_Project.dir/appic_project_qmltyperegistrations.cpp.o -c /project/build/appic_project_qmltyperegistrations.cpp
 
 CMakeFiles/appIC_Project.dir/appic_project_qmltyperegistrations.cpp.i: cmake_force
@@ -240,7 +268,7 @@ CMakeFiles/appIC_Project.dir/appic_project_qmltyperegistrations.cpp.s: cmake_for
 CMakeFiles/appIC_Project.dir/build/.rcc/qrc_qmake_IC_Project.cpp.o: CMakeFiles/appIC_Project.dir/flags.make
 CMakeFiles/appIC_Project.dir/build/.rcc/qrc_qmake_IC_Project.cpp.o: .rcc/qrc_qmake_IC_Project.cpp
 CMakeFiles/appIC_Project.dir/build/.rcc/qrc_qmake_IC_Project.cpp.o: CMakeFiles/appIC_Project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appIC_Project.dir/build/.rcc/qrc_qmake_IC_Project.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appIC_Project.dir/build/.rcc/qrc_qmake_IC_Project.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appIC_Project.dir/build/.rcc/qrc_qmake_IC_Project.cpp.o -MF CMakeFiles/appIC_Project.dir/build/.rcc/qrc_qmake_IC_Project.cpp.o.d -o CMakeFiles/appIC_Project.dir/build/.rcc/qrc_qmake_IC_Project.cpp.o -c /project/build/.rcc/qrc_qmake_IC_Project.cpp
 
 CMakeFiles/appIC_Project.dir/build/.rcc/qrc_qmake_IC_Project.cpp.i: cmake_force
@@ -250,34 +278,6 @@ CMakeFiles/appIC_Project.dir/build/.rcc/qrc_qmake_IC_Project.cpp.i: cmake_force
 CMakeFiles/appIC_Project.dir/build/.rcc/qrc_qmake_IC_Project.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/appIC_Project.dir/build/.rcc/qrc_qmake_IC_Project.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /project/build/.rcc/qrc_qmake_IC_Project.cpp -o CMakeFiles/appIC_Project.dir/build/.rcc/qrc_qmake_IC_Project.cpp.s
-
-CMakeFiles/appIC_Project.dir/speedprovider.cpp.o: CMakeFiles/appIC_Project.dir/flags.make
-CMakeFiles/appIC_Project.dir/speedprovider.cpp.o: /project/speedprovider.cpp
-CMakeFiles/appIC_Project.dir/speedprovider.cpp.o: CMakeFiles/appIC_Project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appIC_Project.dir/speedprovider.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appIC_Project.dir/speedprovider.cpp.o -MF CMakeFiles/appIC_Project.dir/speedprovider.cpp.o.d -o CMakeFiles/appIC_Project.dir/speedprovider.cpp.o -c /project/speedprovider.cpp
-
-CMakeFiles/appIC_Project.dir/speedprovider.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/appIC_Project.dir/speedprovider.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /project/speedprovider.cpp > CMakeFiles/appIC_Project.dir/speedprovider.cpp.i
-
-CMakeFiles/appIC_Project.dir/speedprovider.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/appIC_Project.dir/speedprovider.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /project/speedprovider.cpp -o CMakeFiles/appIC_Project.dir/speedprovider.cpp.s
-
-CMakeFiles/appIC_Project.dir/receiver.cpp.o: CMakeFiles/appIC_Project.dir/flags.make
-CMakeFiles/appIC_Project.dir/receiver.cpp.o: /project/receiver.cpp
-CMakeFiles/appIC_Project.dir/receiver.cpp.o: CMakeFiles/appIC_Project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appIC_Project.dir/receiver.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appIC_Project.dir/receiver.cpp.o -MF CMakeFiles/appIC_Project.dir/receiver.cpp.o.d -o CMakeFiles/appIC_Project.dir/receiver.cpp.o -c /project/receiver.cpp
-
-CMakeFiles/appIC_Project.dir/receiver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/appIC_Project.dir/receiver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /project/receiver.cpp > CMakeFiles/appIC_Project.dir/receiver.cpp.i
-
-CMakeFiles/appIC_Project.dir/receiver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/appIC_Project.dir/receiver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /project/receiver.cpp -o CMakeFiles/appIC_Project.dir/receiver.cpp.s
 
 CMakeFiles/appIC_Project.dir/build/.rcc/qmlcache/appIC_Project_qmlcache_loader.cpp.o: CMakeFiles/appIC_Project.dir/flags.make
 CMakeFiles/appIC_Project.dir/build/.rcc/qmlcache/appIC_Project_qmlcache_loader.cpp.o: .rcc/qmlcache/appIC_Project_qmlcache_loader.cpp
@@ -409,10 +409,10 @@ CMakeFiles/appIC_Project.dir/appIC_Project_autogen/EWIEGA46WW/qrc_qml.cpp.s: cma
 appIC_Project_OBJECTS = \
 "CMakeFiles/appIC_Project.dir/appIC_Project_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/appIC_Project.dir/main.cpp.o" \
+"CMakeFiles/appIC_Project.dir/receiver.cpp.o" \
+"CMakeFiles/appIC_Project.dir/speedprovider.cpp.o" \
 "CMakeFiles/appIC_Project.dir/appic_project_qmltyperegistrations.cpp.o" \
 "CMakeFiles/appIC_Project.dir/build/.rcc/qrc_qmake_IC_Project.cpp.o" \
-"CMakeFiles/appIC_Project.dir/speedprovider.cpp.o" \
-"CMakeFiles/appIC_Project.dir/receiver.cpp.o" \
 "CMakeFiles/appIC_Project.dir/build/.rcc/qmlcache/appIC_Project_qmlcache_loader.cpp.o" \
 "CMakeFiles/appIC_Project.dir/build/.rcc/qmlcache/appIC_Project_Main_qml.cpp.o" \
 "CMakeFiles/appIC_Project.dir/build/.rcc/qmlcache/appIC_Project_InstrumentCluster_qml.cpp.o" \
@@ -428,10 +428,10 @@ appIC_Project_EXTERNAL_OBJECTS =
 
 appIC_Project: CMakeFiles/appIC_Project.dir/appIC_Project_autogen/mocs_compilation.cpp.o
 appIC_Project: CMakeFiles/appIC_Project.dir/main.cpp.o
+appIC_Project: CMakeFiles/appIC_Project.dir/receiver.cpp.o
+appIC_Project: CMakeFiles/appIC_Project.dir/speedprovider.cpp.o
 appIC_Project: CMakeFiles/appIC_Project.dir/appic_project_qmltyperegistrations.cpp.o
 appIC_Project: CMakeFiles/appIC_Project.dir/build/.rcc/qrc_qmake_IC_Project.cpp.o
-appIC_Project: CMakeFiles/appIC_Project.dir/speedprovider.cpp.o
-appIC_Project: CMakeFiles/appIC_Project.dir/receiver.cpp.o
 appIC_Project: CMakeFiles/appIC_Project.dir/build/.rcc/qmlcache/appIC_Project_qmlcache_loader.cpp.o
 appIC_Project: CMakeFiles/appIC_Project.dir/build/.rcc/qmlcache/appIC_Project_Main_qml.cpp.o
 appIC_Project: CMakeFiles/appIC_Project.dir/build/.rcc/qmlcache/appIC_Project_InstrumentCluster_qml.cpp.o

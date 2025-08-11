@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 107,
+                        "durationMicroseconds": 135,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 7
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 59,
+                        "durationMicroseconds": 53,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 8
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 73,
+                        "durationMicroseconds": 76,
                         "errorMessage": "",
                         "functionName": "fillMode",
                         "line": 22
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 57,
+                        "durationMicroseconds": 52,
                         "errorMessage": "",
                         "functionName": "fillMode",
                         "line": 37
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 50,
+                        "durationMicroseconds": 44,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 35
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 15,
-                        "durationMicroseconds": 36,
+                        "durationMicroseconds": 41,
                         "errorMessage": "Cannot access value for name speed",
                         "functionName": "text",
                         "line": 51
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 57,
+                        "durationMicroseconds": 52,
                         "errorMessage": "",
                         "functionName": "horizontalAlignment",
                         "line": 52
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 51,
+                        "durationMicroseconds": 44,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 53
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 37,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 47
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 61,
+                        "durationMicroseconds": 49,
                         "errorMessage": "",
                         "functionName": "horizontalAlignment",
                         "line": 65
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 46,
+                        "durationMicroseconds": 42,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 66

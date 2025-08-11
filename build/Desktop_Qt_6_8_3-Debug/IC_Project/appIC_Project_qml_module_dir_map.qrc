@@ -1,6 +1,6 @@
 <RCC>
   <qresource prefix="/">
-    <file alias="/qt/qml/IC_Project">/home/jeongmin/IC_Project/build/Desktop_Qt_6_8_3-Debug/IC_Project</file>
+    <file alias="/IC_Project">/home/jeongmin/IC_Project/build/Desktop_Qt_6_8_3-Debug/IC_Project</file>
 
   </qresource>
 </RCC>

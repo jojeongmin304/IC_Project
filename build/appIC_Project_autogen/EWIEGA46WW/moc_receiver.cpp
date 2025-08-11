@@ -56,17 +56,20 @@ Q_CONSTINIT static const uint qt_meta_data_Receiver[] = {
        0,       // classname
        0,    0, // classinfo
        1,   14, // methods
-       0,    0, // properties
+       1,   23, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   20,    2, 0x06,    1 /* Public */,
+       1,    1,   20,    2, 0x06,    2 /* Public */,
 
  // signals: parameters
-    QMetaType::Void, QMetaType::Int,    3,
+    QMetaType::Void, QMetaType::Float,    3,
+
+ // properties: name, type, flags
+       3, QMetaType::Float, 0x00015001, uint(0), 0,
 
        0        // eod
 };
@@ -78,11 +81,13 @@ Q_CONSTINIT const QMetaObject Receiver::staticMetaObject = { {
     qt_static_metacall,
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_Receiver_t,
+        // property 'speed'
+        QtPrivate::TypeAndForceComplete<float, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<Receiver, std::true_type>,
         // method 'newSpeedReceived'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>
+        QtPrivate::TypeAndForceComplete<float, std::false_type>
     >,
     nullptr
 } };
@@ -93,18 +98,29 @@ void Receiver::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         auto *_t = static_cast<Receiver *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->newSpeedReceived((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 0: _t->newSpeedReceived((*reinterpret_cast< std::add_pointer_t<float>>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (Receiver::*)(int );
+            using _t = void (Receiver::*)(float );
             if (_t _q_method = &Receiver::newSpeedReceived; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 0;
                 return;
             }
         }
+    }else if (_c == QMetaObject::ReadProperty) {
+        auto *_t = static_cast<Receiver *>(_o);
+        (void)_t;
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< float*>(_v) = _t->speed(); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+    } else if (_c == QMetaObject::ResetProperty) {
+    } else if (_c == QMetaObject::BindableProperty) {
     }
 }
 
@@ -134,12 +150,17 @@ int Receiver::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         if (_id < 1)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
         _id -= 1;
+    }else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty
+            || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
     }
     return _id;
 }
 
 // SIGNAL 0
-void Receiver::newSpeedReceived(int _t1)
+void Receiver::newSpeedReceived(float _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);

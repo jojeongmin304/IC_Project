@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 147,
+                        "durationMicroseconds": 109,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 5
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 59,
+                        "durationMicroseconds": 65,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 6
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 67,
+                        "durationMicroseconds": 81,
                         "errorMessage": "",
                         "functionName": "fillMode",
                         "line": 19
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 51,
+                        "durationMicroseconds": 73,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 17
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 52,
+                        "durationMicroseconds": 87,
                         "errorMessage": "",
                         "functionName": "fillMode",
                         "line": 30
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 42,
+                        "durationMicroseconds": 58,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 28
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 15,
-                        "durationMicroseconds": 43,
+                        "durationMicroseconds": 42,
                         "errorMessage": "Cannot access value for name capacity",
                         "functionName": "text",
                         "line": 39
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 43,
+                        "durationMicroseconds": 57,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 37
