@@ -353,7 +353,6 @@ CMakeFiles/appIC_Project.dir/main.cpp.o: /project/main.cpp \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qobject.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/QDebug \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qdebug.h \
- /project/speedprovider.h /project/receiver.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/QThread \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qthread.h \
  /usr/include/aarch64-linux-gnu/qt6/QtCore/qdeadlinetimer.h \
@@ -363,7 +362,8 @@ CMakeFiles/appIC_Project.dir/main.cpp.o: /project/main.cpp \
  /usr/include/c++/12/bits/unique_lock.h \
  /usr/include/c++/12/condition_variable \
  /usr/include/c++/12/bits/atomic_futex.h \
- /usr/include/c++/12/bits/std_thread.h /usr/include/unistd.h \
+ /usr/include/c++/12/bits/std_thread.h /project/speedprovider.h \
+ /project/receiver.h /usr/include/unistd.h \
  /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
  /usr/include/aarch64-linux-gnu/bits/environments.h \
  /usr/include/aarch64-linux-gnu/bits/confname.h \

@@ -3984,15 +3984,7 @@ CMakeFiles/appIC_Project.dir/receiver.cpp.o: /project/receiver.cpp \
   /usr/include/asm-generic/types.h \
   /usr/include/asm-generic/int-ll64.h \
   /usr/include/linux/socket.h \
-  /usr/include/linux/can/raw.h \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/QByteArray \
-  /usr/include/aarch64-linux-gnu/qt6/QtCore/qbytearray.h \
-  /usr/include/fcntl.h \
-  /usr/include/aarch64-linux-gnu/bits/fcntl.h \
-  /usr/include/aarch64-linux-gnu/bits/fcntl-linux.h \
-  /usr/include/linux/falloc.h \
-  /usr/include/aarch64-linux-gnu/bits/stat.h \
-  /usr/include/aarch64-linux-gnu/bits/struct_stat.h
+  /usr/include/linux/can/raw.h
 
 CMakeFiles/appIC_Project.dir/speedprovider.cpp.o: /project/speedprovider.cpp \
   /usr/include/stdc-predef.h \
@@ -4333,14 +4325,6 @@ CMakeFiles/appIC_Project.dir/speedprovider.cpp.o: /project/speedprovider.cpp \
 
 /project/speedprovider.cpp:
 
-/usr/include/aarch64-linux-gnu/bits/struct_stat.h:
-
-/usr/include/linux/falloc.h:
-
-/usr/include/aarch64-linux-gnu/bits/fcntl.h:
-
-/usr/include/fcntl.h:
-
 /project/receiver.cpp:
 
 /usr/include/aarch64-linux-gnu/qt6/QtCore/qmargins.h:
@@ -4418,8 +4402,6 @@ CMakeFiles/appIC_Project.dir/speedprovider.cpp.o: /project/speedprovider.cpp \
 /usr/include/aarch64-linux-gnu/qt6/QtNetwork/qtnetwork-config.h:
 
 /usr/include/aarch64-linux-gnu/qt6/QtQml/qtqml-config.h:
-
-/usr/include/aarch64-linux-gnu/bits/stat.h:
 
 /usr/include/aarch64-linux-gnu/qt6/QtQml/qtqmlglobal.h:
 
@@ -4506,8 +4488,6 @@ appIC_Project_autogen/EWIEGA46WW/moc_speedprovider.cpp:
 /usr/include/asm-generic/sockios.h:
 
 /usr/include/c++/12/mutex:
-
-/usr/include/aarch64-linux-gnu/bits/fcntl-linux.h:
 
 /usr/include/c++/12/ctime:
 
@@ -4690,8 +4670,6 @@ appIC_Project_autogen/EWIEGA46WW/moc_speedprovider.cpp:
 /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h:
 
 /usr/include/time.h:
-
-/usr/include/aarch64-linux-gnu/qt6/QtCore/QByteArray:
 
 /usr/include/c++/12/bits/range_access.h:
 

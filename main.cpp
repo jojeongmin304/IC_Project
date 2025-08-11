@@ -4,6 +4,7 @@
 #include <QTimer>
 #include <QObject>
 #include <QDebug>
+#include <QThread>
 #include "speedprovider.h"
 #include "receiver.h"
 
@@ -11,12 +12,10 @@
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
-
     QQmlApplicationEngine engine;
 
     //1.---객체 생성---
     SpeedProvider speedProvider; //QML과 데이터를 주고받을 sppedProvider객체
-
     Receiver canReceiver; //CAN 버스에서 데이터를 수신할 Receiver 객체
 
     //2.---CAN 수신기 초기화 및 스레드 시작---

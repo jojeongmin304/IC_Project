@@ -339,4 +339,6 @@ CMakeFiles/appIC_Project.dir/receiver.cpp.o: /project/receiver.cpp \
  /usr/include/linux/can.h /usr/include/linux/types.h \
  /usr/include/aarch64-linux-gnu/asm/types.h \
  /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
- /usr/include/linux/socket.h /usr/include/linux/can/raw.h
+ /usr/include/linux/socket.h /usr/include/linux/can/raw.h \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/QByteArray \
+ /usr/include/aarch64-linux-gnu/qt6/QtCore/qbytearray.h
