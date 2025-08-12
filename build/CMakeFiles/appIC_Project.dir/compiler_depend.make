@@ -3525,8 +3525,6 @@ CMakeFiles/appIC_Project.dir/main.cpp.o: /project/main.cpp \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qobject.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/QDebug \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qdebug.h \
-  /project/speedprovider.h \
-  /project/receiver.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/QThread \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qthread.h \
   /usr/include/aarch64-linux-gnu/qt6/QtCore/qdeadlinetimer.h \
@@ -3538,6 +3536,8 @@ CMakeFiles/appIC_Project.dir/main.cpp.o: /project/main.cpp \
   /usr/include/c++/12/condition_variable \
   /usr/include/c++/12/bits/atomic_futex.h \
   /usr/include/c++/12/bits/std_thread.h \
+  /project/speedprovider.h \
+  /project/receiver.h \
   /usr/include/unistd.h \
   /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
   /usr/include/aarch64-linux-gnu/bits/environments.h \
@@ -3984,7 +3984,9 @@ CMakeFiles/appIC_Project.dir/receiver.cpp.o: /project/receiver.cpp \
   /usr/include/asm-generic/types.h \
   /usr/include/asm-generic/int-ll64.h \
   /usr/include/linux/socket.h \
-  /usr/include/linux/can/raw.h
+  /usr/include/linux/can/raw.h \
+  /usr/include/aarch64-linux-gnu/qt6/QtCore/QByteArray \
+  /usr/include/aarch64-linux-gnu/qt6/QtCore/qbytearray.h
 
 CMakeFiles/appIC_Project.dir/speedprovider.cpp.o: /project/speedprovider.cpp \
   /usr/include/stdc-predef.h \
@@ -4670,6 +4672,8 @@ appIC_Project_autogen/EWIEGA46WW/moc_speedprovider.cpp:
 /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h:
 
 /usr/include/time.h:
+
+/usr/include/aarch64-linux-gnu/qt6/QtCore/QByteArray:
 
 /usr/include/c++/12/bits/range_access.h:
 

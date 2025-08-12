@@ -4,9 +4,17 @@
             {
                 "entries": [
                     {
+                        "codegenSuccessfull": false,
+                        "column": 32,
+                        "durationMicroseconds": 197,
+                        "errorMessage": "Cannot access value for name speedController",
+                        "functionName": "actualSpeed",
+                        "line": 7
+                    },
+                    {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 113,
+                        "durationMicroseconds": 86,
                         "errorMessage": "",
                         "functionName": "fillMode",
                         "line": 21
@@ -14,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 64,
+                        "durationMicroseconds": 42,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 18
@@ -22,15 +30,15 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 16,
-                        "durationMicroseconds": 164,
-                        "errorMessage": "Cannot access value for name speedController",
+                        "durationMicroseconds": 14,
+                        "errorMessage": "Cannot access value for name actualSpeed",
                         "functionName": "speed",
                         "line": 29
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 19,
-                        "durationMicroseconds": 15,
+                        "durationMicroseconds": 10,
                         "errorMessage": "Cannot access value for name actualCapacity",
                         "functionName": "capacity",
                         "line": 38

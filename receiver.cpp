@@ -62,8 +62,13 @@ void Receiver::run()
 
             // 아두이노에서 보낸 속도 데이터 처리
             if (frame.can_id == 0x10 && frame.can_dlc >= 2) {
-                int receivedSpeed = (frame.data[0] << 8) | frame.data[1];
-                emit newSpeedReceived(receivedSpeed);
+                int receivedRPM = (frame.data[0] << 8) | frame.data[1]; //rpm값 으로 2 바이트 합치기
+                //실수를 사용 하여 정밀하게 계산
+                double speed_ms = (receivedRPM * 3.141592 * 0.068) / 60.0;
+                int speed_kmh = speed_ms * 3.6;
+
+                //최종 결과만 정수로 변환하여 시그널 전송 by 명시적 형변환
+                emit newSpeedReceived(static_cast<int>(speed_kmh));
             }
         } else {
             msleep(20); // CPU 과부하 방지
