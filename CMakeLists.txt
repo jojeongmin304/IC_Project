@@ -43,6 +43,14 @@ qt_add_qml_module(appIC_Project
         SOURCES receiver.h receiver.cpp
 )
 
+target_link_libraries(appIC_Project
+    PRIVATE
+        Qt6::Gui
+        Qt6::Quick
+        Qt6::Qml
+        Qt6::Network
+)
+
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
 # explicit, fixed bundle identifier manually though.
